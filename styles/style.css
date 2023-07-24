@@ -2,9 +2,9 @@ html {
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
 }
-body {
+/* body {
   width: 441px;
-}
+} */
 
 .header-container {
   color: #fff;
@@ -253,13 +253,21 @@ shadow {
     width: 96%;
   }
 }
-/* 
+
 @media screen and (min-width: 768px) {
   .nav-container,
   .primary-content-wraper,
   .secondary-content-wraper,
   .footer-wraper {
     width: 720px;
+  }
+  .nav,
+  .shadow,
+  .landing-page,
+  .primary-main-container,
+  .secondary-main-container,
+  .footer-container {
+    width: 768px;
   }
 }
 
@@ -270,4 +278,12 @@ shadow {
   .footer-wraper {
     width: 960px;
   }
-} */
+  .nav,
+  .shadow,
+  .landing-page,
+  .primary-main-container,
+  .secondary-main-container,
+  .footer-container {
+    width: 1024px;
+  }
+}
