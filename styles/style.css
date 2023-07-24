@@ -5,6 +5,7 @@ html {
 
 .header-container {
   color: #fff;
+  width: 441px;
 }
 .nav {
   background-color: #4e4e4e;
@@ -100,20 +101,22 @@ shadow {
   display: flex;
   justify-content: center;
   align-content: center;
+  width: 441px;
 }
 .primary-main-container {
   background-color: #f1f1f1;
+  width: 441px;
 }
 .primary-content-wraper,
 .secondary-content-wraper {
-  width: 960px;
+  width: 413px;
   margin: 0 auto;
 }
-.primary-main-heading,
-.secondary-main-heading {
+.primary-main-heading {
   font-size: 36px;
   font-weight: 700;
-  padding-top: 51px;
+  padding: 34px 10px;
+  text-align: center;
   color: #152d41;
 }
 .specialists-container {
@@ -121,7 +124,7 @@ shadow {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 36px;
   width: 413px;
   margin: 0 auto;
   color: #000;
@@ -130,9 +133,9 @@ shadow {
 .first-specjalist,
 .second-specjalist {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 100%;
 }
 .specjalist-pic-Piotr-item,
 .specjalist-pic-Marek-item {
@@ -147,7 +150,6 @@ shadow {
 }
 .specjalist-pic-Piotr-item {
   background-image: url(/assets/Piotr-Kowalski.png);
-  order: 1;
 }
 .specialists-heading {
   font-weight: 700;
@@ -155,29 +157,28 @@ shadow {
 }
 .specjalist-text-Marek,
 .specjalist-text-Piotr {
-  width: 700px;
+  width: 413px;
   font-size: 18px;
   text-align: justify;
 }
-/* .specjalist-text-Piotr {
-  text-align: right;
-} */
 
 .secondary-main-container {
   background-color: #405d78;
-  /* height: 689px; */
+  width: 441px;
   color: white;
 }
 .secondary-main-heading {
   color: #fff;
-  padding-bottom: 82px;
+  padding: 34px 10px;
+  font-size: 26px;
+  text-align: center;
 }
 .offer-container {
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
-  gap: 63px;
+  gap: 36px;
 }
 .offer-item {
   position: relative;
@@ -209,13 +210,17 @@ shadow {
 
 .footer-container {
   background-color: #4e4e4e;
+  width: 441px;
+  height: 147px;
 }
 .footer-wraper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
   width: 413px;
-  height: 71px;
+  height: 147px;
   margin: 0 auto;
 }
 .footer-text {
@@ -240,7 +245,7 @@ shadow {
     width: 96%;
   }
 }
-
+/* 
 @media screen and (min-width: 768px) {
   .nav-container,
   .primary-content-wraper,
@@ -257,4 +262,4 @@ shadow {
   .footer-wraper {
     width: 960px;
   }
-}
+} */
