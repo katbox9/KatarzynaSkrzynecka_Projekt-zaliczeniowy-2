@@ -284,6 +284,6 @@ shadow {
   .primary-main-container,
   .secondary-main-container,
   .footer-container {
-    width: 1024px;
+    width: 100vh;
   }
 }
