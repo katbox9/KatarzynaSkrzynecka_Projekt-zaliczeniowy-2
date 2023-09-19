@@ -247,6 +247,9 @@ shadow {
   .footer-container {
     width: 100vw;
   }
+  .nav-item-container {
+    display: none;
+  }
   .specialists-heading,
   .secondary-paragraph {
     margin: 0 auto;
@@ -273,14 +276,32 @@ shadow {
   .footer-wraper {
     width: 960px;
   }
-  .nav,
+  /* .nav,
   .shadow,
   .landing-page,
   .primary-main-container,
   .secondary-main-container,
   .footer-container {
     width: 100vw;
+  } */
+
+  .burger-menu {
+    display: none;
   }
+  .nav-item-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 46px;
+  }
+  .nav-item-btn {
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav-item-contact-btn {
+    cursor: not-allowed;
+  }
+
   .offer-container {
     grid-template-columns: auto auto auto;
   }
