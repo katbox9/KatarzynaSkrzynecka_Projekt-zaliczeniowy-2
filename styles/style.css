@@ -76,10 +76,10 @@ shadow {
   color: #fff;
   transition: 1s ease;
 }
-.offer-btn:hover {
+/* .offer-btn:hover {
   background-color: #fff;
   color: black;
-}
+} */
 
 .main-section {
   display: flex;
@@ -301,7 +301,10 @@ shadow {
   .nav-item-contact-btn {
     cursor: not-allowed;
   }
-
+  .offer-btn:hover {
+    background-color: #fff;
+    color: black;
+  }
   .offer-container {
     grid-template-columns: auto auto auto;
   }
