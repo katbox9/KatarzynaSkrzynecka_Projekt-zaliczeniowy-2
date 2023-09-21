@@ -20,7 +20,9 @@ html {
   margin: 0 auto;
   font-size: 18px;
 }
-
+.nav-item-container {
+  display: none;
+}
 .shadow {
   background-color: #000000d1;
 }
@@ -76,10 +78,6 @@ shadow {
   color: #fff;
   transition: 1s ease;
 }
-/* .offer-btn:hover {
-  background-color: #fff;
-  color: black;
-} */
 
 .main-section {
   display: flex;
@@ -247,9 +245,7 @@ shadow {
   .footer-container {
     width: 100vw;
   }
-  .nav-item-container {
-    display: none;
-  }
+
   .specialists-heading,
   .secondary-paragraph {
     margin: 0 auto;
@@ -276,16 +272,8 @@ shadow {
   .footer-wraper {
     width: 960px;
   }
-  /* .nav,
-  .shadow,
-  .landing-page,
-  .primary-main-container,
-  .secondary-main-container,
-  .footer-container {
-    width: 100vw;
-  } */
 
-  .burger-menu {
+  .nav-container .burger-menu {
     display: none;
   }
   .nav-item-container {
