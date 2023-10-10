@@ -221,25 +221,8 @@ shadow {
 }
 
 @media screen and (min-width: 768px) {
-  .nav-container,
-  .landing-page-container,
-  .primary-content-wraper,
-  .secondary-content-wraper,
-  .specialists-container,
-  .first-specjalist,
-  .second-specjalist,
-  .specialists-heading,
-  .secondary-paragraph,
-  .footer-wraper {
+  .container {
     width: 720px;
-  }
-  .nav,
-  .shadow,
-  .landing-page,
-  .primary-main-container,
-  .secondary-main-container,
-  .footer-container {
-    width: 100vw;
   }
 
   .specialists-heading,
@@ -256,19 +239,9 @@ shadow {
 }
 
 @media screen and (min-width: 1024px) {
-  .nav-container,
-  .landing-page-container,
-  .primary-content-wraper,
-  .secondary-content-wraper,
-  .specialists-container,
-  .first-specjalist,
-  .second-specjalist,
-  .specialists-heading,
-  .secondary-paragraph,
-  .footer-wraper {
+  .container {
     width: 960px;
   }
-
   .nav-container .burger-menu {
     display: none;
   }
@@ -296,6 +269,11 @@ shadow {
     width: 195px;
     height: 195px;
   }
+
+  .primary-main-heading,
+  .secondary-main-heading {
+    text-align: unset;
+  }
   .specialists-container {
     display: flex;
     flex-direction: column;
@@ -321,6 +299,11 @@ shadow {
   .specjalist-text-Piotr {
     text-align: right;
   }
+  .specjalist-text-Marek,
+  .specjalist-text-Piotr {
+    text-align: unset;
+  }
+
   .footer-wraper {
     display: flex;
     flex-direction: row;
