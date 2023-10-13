@@ -109,8 +109,7 @@ shadow {
   font-size: 18px;
   padding-bottom: 100px;
 }
-.first-specjalist,
-.second-specjalist {
+.specjalist {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -286,11 +285,11 @@ shadow {
     color: #000;
     font-size: 18px;
   }
-  .first-specjalist,
-  .second-specjalist {
+  .specjalist {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    /* justify-content: space-between;
+    align-items: center; */
     width: 100%;
   }
   .specjalist-pic-Piotr-item {
