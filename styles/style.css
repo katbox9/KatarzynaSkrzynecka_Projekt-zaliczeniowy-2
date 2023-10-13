@@ -120,6 +120,7 @@ shadow {
 .specjalist-pic-Marek-item {
   width: 197px;
   height: 197px;
+  flex-shrink: 0;
   border: solid 1px black;
   border-radius: 50%;
   background-size: cover;
@@ -193,7 +194,6 @@ shadow {
 .footer-container {
   background-color: #4e4e4e;
   width: 100vw;
-  height: 147px;
 }
 .footer-wraper {
   display: flex;
@@ -202,8 +202,8 @@ shadow {
   align-items: center;
   gap: 20px;
   width: 96vw;
-  height: 147px;
   margin: 0 auto;
+  height: 71px;
 }
 .footer-text {
   color: white;
@@ -288,8 +288,6 @@ shadow {
   .specjalist {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between;
-    align-items: center; */
     width: 100%;
   }
   .specjalist-pic-Piotr-item {
