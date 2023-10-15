@@ -23,13 +23,15 @@ html {
 .nav-item-container {
   display: none;
 }
-.shadow {
-  background-color: #000000d1;
-}
 .landing-page {
   background-image: url(/assets/section-background.png);
   background-size: cover;
   background-position: center;
+}
+.shadow {
+  background-color: rgba(0, 0, 0, 0.15);
+  height: 100%;
+  width: 100%;
 }
 .landing-page,
 shadow {
@@ -49,7 +51,7 @@ shadow {
   font-weight: 700;
 }
 .heading-landing-page {
-  width: 80vw;
+  width: 65vw;
   height: 141px;
   font-size: 36px;
 }
@@ -57,7 +59,7 @@ shadow {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60vw;
+  width: 65vw;
   height: 23px;
   font-size: 18px;
 }
@@ -90,11 +92,12 @@ shadow {
   width: 96vw;
   margin: 0 auto;
 }
-.primary-main-heading {
-  font-size: 36px;
+.primary-main-heading,
+.secondary-main-heading {
+  font-size: 32px;
   font-weight: 700;
-  padding: 34px 10px;
   text-align: center;
+  padding: 34px 10px;
   color: #152d41;
 }
 .specialists-container {
@@ -150,8 +153,6 @@ shadow {
 .secondary-main-heading {
   color: #fff;
   padding: 34px 10px;
-  font-size: 26px;
-  text-align: center;
 }
 .offer-section {
   padding-bottom: 45px;
@@ -256,6 +257,14 @@ shadow {
   }
   .nav-item-contact-btn {
     cursor: not-allowed;
+  }
+  .nav-item {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .nav-item-btn,
+  .nav-item-contact-btn {
+    font-weight: 400;
   }
   .offer-btn:hover {
     background-color: #fff;
