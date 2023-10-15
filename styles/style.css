@@ -94,11 +94,17 @@ shadow {
 }
 .primary-main-heading,
 .secondary-main-heading {
-  font-size: 32px;
   font-weight: 700;
   text-align: center;
   padding: 34px 10px;
+}
+.primary-main-heading {
+  font-size: 36px;
   color: #152d41;
+}
+.secondary-main-heading {
+  font-size: 26px;
+  color: #fff;
 }
 .specialists-container {
   display: flex;
@@ -110,7 +116,7 @@ shadow {
   margin: 0 auto;
   color: #000;
   font-size: 18px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 .specjalist {
   display: flex;
@@ -150,10 +156,6 @@ shadow {
   width: 100vw;
   color: white;
 }
-.secondary-main-heading {
-  color: #fff;
-  padding: 34px 10px;
-}
 .offer-section {
   padding-bottom: 45px;
 }
@@ -176,9 +178,6 @@ shadow {
   background: #f1f1f1;
   color: #000;
   font-size: 24px;
-}
-.offer-item:hover {
-  transform: scale(1.05);
 }
 .red-dot {
   position: absolute;
@@ -220,6 +219,19 @@ shadow {
   text-decoration: none;
 }
 
+@media screen and (max-width: 320px) {
+  .container {
+    width: 310px;
+  }
+  .secondary-main-heading {
+    font-size: 24px;
+  }
+  .offer-item {
+    width: 220px;
+    height: 220px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 720px;
@@ -236,6 +248,9 @@ shadow {
     width: 250px;
     height: 250px;
   }
+}
+.secondary-main-heading {
+  font-size: 30px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -277,10 +292,12 @@ shadow {
     width: 195px;
     height: 195px;
   }
-
   .primary-main-heading,
   .secondary-main-heading {
     text-align: unset;
+  }
+  .secondary-main-heading {
+    font-size: 36px;
   }
   .specialists-container {
     display: flex;
@@ -309,7 +326,9 @@ shadow {
   .specjalist-text-Piotr {
     text-align: unset;
   }
-
+  .offer-item:hover {
+    transform: scale(1.05);
+  }
   .footer-wraper {
     display: flex;
     flex-direction: row;
