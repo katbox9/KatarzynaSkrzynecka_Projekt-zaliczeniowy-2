@@ -194,6 +194,8 @@ shadow {
 .footer-container {
   background-color: #4e4e4e;
   width: 100vw;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 .footer-wraper {
   display: flex;
@@ -207,6 +209,7 @@ shadow {
 }
 .footer-text {
   color: white;
+  text-align: center;
 }
 .icons-container {
   display: flex;
@@ -227,8 +230,8 @@ shadow {
     font-size: 24px;
   }
   .offer-item {
-    width: 220px;
-    height: 220px;
+    width: 230px;
+    height: 230px;
   }
 }
 
@@ -236,7 +239,6 @@ shadow {
   .container {
     width: 720px;
   }
-
   .specialists-heading,
   .secondary-paragraph {
     margin: 0 auto;
@@ -245,8 +247,8 @@ shadow {
     grid-template-columns: auto auto;
   }
   .offer-item {
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
   }
 }
 .secondary-main-heading {
@@ -300,16 +302,9 @@ shadow {
     font-size: 36px;
   }
   .specialists-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 100px;
     width: 960px;
     height: 672px;
-    margin: 0 auto;
-    color: #000;
-    font-size: 18px;
   }
   .specjalist {
     display: flex;
@@ -330,11 +325,7 @@ shadow {
     transform: scale(1.05);
   }
   .footer-wraper {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    width: 960px;
-    margin: 0 auto;
   }
 }
