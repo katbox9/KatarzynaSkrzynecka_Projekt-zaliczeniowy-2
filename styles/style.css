@@ -51,9 +51,9 @@ shadow {
   font-weight: 700;
 }
 .heading-landing-page {
-  width: 65vw;
-  height: 141px;
+  width: 65%;
   font-size: 36px;
+  font-weight: 700;
 }
 .primary-paragraph {
   display: flex;
