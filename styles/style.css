@@ -33,8 +33,7 @@ html {
   height: 100%;
   width: 100%;
 }
-.landing-page,
-shadow {
+.landing-page {
   width: 100vw;
   height: calc(100vh - 50px);
 }
@@ -81,7 +80,6 @@ shadow {
 .main-section {
   display: flex;
   justify-content: center;
-  width: 100vw;
 }
 .primary-main-container {
   background-color: #f1f1f1;
@@ -173,8 +171,8 @@ shadow {
   align-items: center;
   flex-direction: column;
   transition: 0.5s;
-  width: 339px;
-  height: 332px;
+  width: 230px;
+  height: 230px;
   background: #f1f1f1;
   color: #000;
   font-size: 24px;
@@ -222,16 +220,10 @@ shadow {
   text-decoration: none;
 }
 
-@media screen and (max-width: 320px) {
-  .container {
-    width: 310px;
-  }
-  .secondary-main-heading {
-    font-size: 24px;
-  }
+@media screen and (min-width: 320px) {
   .offer-item {
-    width: 230px;
-    height: 230px;
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -243,6 +235,9 @@ shadow {
   .secondary-paragraph {
     margin: 0 auto;
   }
+  .secondary-main-heading {
+    font-size: 30px;
+  }
   .offer-container {
     grid-template-columns: auto auto;
   }
@@ -250,9 +245,6 @@ shadow {
     width: 260px;
     height: 260px;
   }
-}
-.secondary-main-heading {
-  font-size: 30px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -317,9 +309,8 @@ shadow {
   .specjalist-text-Piotr {
     text-align: right;
   }
-  .specjalist-text-Marek,
-  .specjalist-text-Piotr {
-    text-align: unset;
+  .specjalist-text-Marek {
+    text-align: left;
   }
   .offer-item:hover {
     transform: scale(1.05);
